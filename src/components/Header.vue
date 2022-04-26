@@ -60,26 +60,23 @@
       <div class="carousel-inner" >
         <div class="carousel-item active">
           <img
-            class="d-block w-100"
+            class="d-block w-100 img-fluid animated"
             src="../assets/img/gif_1.gif"
             alt="First slide"
-            style="height:800px; width:300px;"
           />
         </div>
         <div class="carousel-item">
           <img
-            class="d-block w-100"
+            class="d-block w-100 img-fluid animated"
             src="../assets/img/consultation.png"
             alt="First slide"
-            style="height:800px; width:300px;"
           />
         </div>
         <div class="carousel-item">
           <img
-            class="d-block w-100"
+            class="d-block w-100 img-fluid animated"
             src="../assets/img/banner2.jpg"
             alt="First slide"
-            style="height:600px; width:300px;"
           />
         </div>
       </div>
