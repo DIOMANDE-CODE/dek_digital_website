@@ -17,7 +17,7 @@
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <!-- <img src="../assets/img/logo.png" alt=""> -->
           <h1>
-            <span style="color: #f15d22"> DIGITAL </span
+            <span style="color: #f15d22">DEK-DIGITAL </span
             ><span style="color: #0b3146"> + </span><span></span>
           </h1>
         </a>
