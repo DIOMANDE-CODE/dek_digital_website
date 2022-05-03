@@ -6,12 +6,8 @@
           <div class="row gy-4">
             <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
               <div class="service-item position-relative">
-                <div class="icon"><i class="bi bi-activity icon"></i></div>
-                <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-                <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
-                </p>
+                <div class="icon"><i class="bi-laptop"></i></div>
+                <h4><a href="" class="stretched-link">Dévéloppement marketing</a></h4>
               </div>
             </div>
             <!-- End Service Item -->
@@ -23,13 +19,9 @@
             >
               <div class="service-item position-relative">
                 <div class="icon">
-                  <i class="bi bi-bounding-box-circles icon"></i>
+                  <i class="bi bi-easel"></i>  
                 </div>
-                <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
-                <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore
-                </p>
+                <h4><a href="" class="stretched-link">Infographie</a></h4>
               </div>
             </div>
             <!-- End Service Item -->
@@ -41,13 +33,9 @@
             >
               <div class="service-item position-relative">
                 <div class="icon">
-                  <i class="bi bi-calendar4-week icon"></i>
+                  <i class="bi bi-activity icon"></i>
                 </div>
-                <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
-                <p>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia
-                </p>
+                <h4><a href="" class="stretched-link">Publicité</a></h4>
               </div>
             </div>
             <!-- End Service Item -->
@@ -58,12 +46,8 @@
               data-aos-delay="600"
             >
               <div class="service-item position-relative">
-                <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-                <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-                <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis
-                </p>
+                <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+                <h4><a href="" class="stretched-link">Evènementiel</a></h4>
               </div>
             </div>
             <!-- End Service Item -->

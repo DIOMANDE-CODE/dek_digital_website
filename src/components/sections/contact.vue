@@ -4,20 +4,11 @@
     <section id="contact" class="contact">
       <div class="container">
         <div class="section-header">
-          <h2>Contact Us</h2>
-          <p>
-            Ea vitae aspernatur deserunt voluptatem impedit deserunt magnam
-            occaecati dssumenda quas ut ad dolores adipisci aliquam.
-          </p>
+          <h2>Nous joindre</h2>
+          <!-- <p>
+            Nous sommes disponible pour toutes vos préocupations
+          </p> -->
         </div>
-      </div>
-
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-          frameborder="0"
-          allowfullscreen
-        ></iframe>
       </div>
       <!-- End Google Maps -->
 
@@ -25,17 +16,16 @@
         <div class="row gy-5 gx-lg-5">
           <div class="col-lg-4">
             <div class="info">
-              <h3>Get in touch</h3>
+              <h3>Nos coordonnées</h3>
               <p>
-                Et id eius voluptates atque nihil voluptatem enim in tempore
-                minima sit ad mollitia commodi minus.
+              
               </p>
 
               <div class="info-item d-flex">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
-                  <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <h4>Localisation:</h4>
+                  <p>Cocody Rivéra 2</p>
                 </div>
               </div>
               <!-- End Info Item -->
@@ -44,7 +34,7 @@
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h4>Email:</h4>
-                  <p>info@example.com</p>
+                  <p>dekdigitalplus@gmail.com</p>
                 </div>
               </div>
               <!-- End Info Item -->
@@ -52,8 +42,10 @@
               <div class="info-item d-flex">
                 <i class="bi bi-phone flex-shrink-0"></i>
                 <div>
-                  <h4>Call:</h4>
-                  <p>+1 5589 55488 55</p>
+                  <h4>Appelez-nous :</h4>
+                  <p>+225 0759676026</p>
+                  <p>+225 0595031694</p>
+                  <p>+225 0701101175</p>
                 </div>
               </div>
               <!-- End Info Item -->
@@ -62,10 +54,9 @@
 
           <div class="col-lg-8">
             <form
-              action="forms/contact.php"
-              method="post"
-              role="form"
               class="php-email-form"
+              method="POST"
+              @submit.prevent="envoyer"
             >
               <div class="row">
                 <div class="col-md-6 form-group">
@@ -74,7 +65,8 @@
                     name="name"
                     class="form-control"
                     id="name"
-                    placeholder="Your Name"
+                    placeholder="Votre nom"
+                    v-model="nom"
                     required
                   />
                 </div>
@@ -84,7 +76,8 @@
                     class="form-control"
                     name="email"
                     id="email"
-                    placeholder="Your Email"
+                    placeholder="Votre email"
+                    v-model="mail"
                     required
                   />
                 </div>
@@ -95,7 +88,8 @@
                   class="form-control"
                   name="subject"
                   id="subject"
-                  placeholder="Subject"
+                  placeholder="Sujet"
+                  v-model="sujet"
                   required
                 />
               </div>
@@ -104,18 +98,21 @@
                   class="form-control"
                   name="message"
                   placeholder="Message"
+                  v-model="message"
                   required
                 ></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">
-                  Your message has been sent. Thank you!
+                <div class="alert alert-success" role="alert" v-if="success">
+                  {{ success }}
                 </div>
               </div>
               <div class="text-center">
-                <button type="submit">Send Message</button>
+                <button type="submit" @submit.prevent="envoyer">
+                  Envoyer
+                </button>
               </div>
             </form>
           </div>
@@ -127,7 +124,41 @@
   </div>
 </template>
 <script>
+
+import axios from 'axios'
 export default {
-  name : 'Contact',
-}
+  name: "Contact",
+  data() {
+    return {
+      nom: "",
+      mail: "",
+      sujet: "",
+      message: "",
+      success: "",
+    };
+  },
+  methods: {
+    envoyer() {
+      var contact = {
+        nom : this.nom,
+        mail : this.mail,
+        sujet : this.sujet,
+        message : this.message
+      }
+      axios.post('http://127.0.0.1:8000/api/email/', contact)
+      .then(
+        (response) => {
+          this.success = "Votre message a été envoyé";
+          this.nom = "",
+          this.mail = "",
+          this.sujet = "",
+          this.message = ""
+        }
+      )
+      .catch((err) => {
+        console.log(err);
+      })
+    },
+  },
+};
 </script>

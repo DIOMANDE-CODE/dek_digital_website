@@ -14,14 +14,9 @@
                 order-last order-md-first
               "
             >
-              <h3>Alias sunt quas <em>Cupiditate</em> oluptas hic minima</h3>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
+                Pour des bésoins en infographie, organisation d'évènement, publicité sur les réseaux sociaux, création d'application web et mobile, nous somme disponible pour vous satisfaire . Nous sommes joignable au : <br> <b>(+225) 07-59-67-60-26/07-01-10-11-75</b>
               </p>
-              <a class="cta-btn align-self-start" href="#">Call To Action</a>
             </div>
 
             <div
@@ -33,7 +28,7 @@
               "
             >
               <div class="img">
-                <img src="../../assets/img/cta.jpg" alt="" class="img-fluid" />
+                <img src="../../assets/img/action.jpg" alt="" class="img-fluid" />
               </div>
             </div>
           </div>

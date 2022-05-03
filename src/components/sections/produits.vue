@@ -4,10 +4,9 @@
       <section id="services" class="services">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
-            <h2>Our Services</h2>
+            <h2>Nos services</h2>
             <p>
-              Ea vitae aspernatur deserunt voluptatem impedit deserunt magnam
-              occaecati dssumenda quas ut ad dolores adipisci aliquam.
+              Pour mieux atteindre nos objectifs, nous intervenons dans plusieurs domaines d'activités à savoir :
             </p>
           </div>
 
@@ -20,21 +19,20 @@
               <div class="service-item">
                 <div class="img">
                   <img
-                    src="../../assets/img/services-1.jpg"
+                    src="../../assets/img/marketing.jpg"
                     class="img-fluid"
                     alt=""
                   />
                 </div>
                 <div class="details position-relative">
                   <div class="icon">
-                    <i class="bi bi-activity"></i>
+                    <i class="bi bi-easel"></i>
                   </div>
                   <a href="#" class="stretched-link">
-                    <h3>Nesciunt Mete</h3>
+                    <h3>Marketing de contenu</h3>
                   </a>
                   <p>
-                    Provident nihil minus qui consequatur non omnis maiores. Eos
-                    accusantium minus dolores iure perferendis.
+                    Création de contenu publicitaire ( affiches, vidéos, flyers,logo, page de réseaux sociaux professionnel, stratégies de communication)
                   </p>
                 </div>
               </div>
@@ -49,21 +47,20 @@
               <div class="service-item">
                 <div class="img">
                   <img
-                    src="../../assets/img/services-2.jpg"
+                    src="../../assets/img/dev_web.jpg"
                     class="img-fluid"
                     alt=""
                   />
                 </div>
                 <div class="details position-relative">
                   <div class="icon">
-                    <i class="bi bi-broadcast"></i>
+                    <i class="bi-code-slash"></i>
                   </div>
                   <a href="#" class="stretched-link">
-                    <h3>Eosle Commodi</h3>
+                    <h3>Dévéloppement informatique</h3>
                   </a>
                   <p>
-                    Ut autem aut autem non a. Sint sint sit facilis nam iusto
-                    sint. Libero corrupti neque eum hic non ut nesciunt dolorem.
+                    Mise en place d'applications web, desktop et mobile ( E-commerce, E-business, site internet, logiciel)
                   </p>
                 </div>
               </div>
@@ -85,15 +82,13 @@
                 </div>
                 <div class="details position-relative">
                   <div class="icon">
-                    <i class="bi bi-easel"></i>
+                    <i class="bi bi-calendar4-week"></i>
                   </div>
                   <a href="#" class="stretched-link">
-                    <h3>Ledo Markt</h3>
+                    <h3>Evènementiel</h3>
                   </a>
                   <p>
-                    Ut excepturi voluptatem nisi sed. Quidem fuga consequatur.
-                    Minus ea aut. Vel qui id voluptas adipisci eos earum
-                    corrupti.
+                    publicité évènementiel, logistique, imagérie, sponsoring
                   </p>
                 </div>
               </div>
@@ -108,21 +103,20 @@
               <div class="service-item">
                 <div class="img">
                   <img
-                    src="../../assets/img/services-4.jpg"
+                    src="../../assets/img/publicite.jpg"
                     class="img-fluid"
                     alt=""
                   />
                 </div>
                 <div class="details position-relative">
                   <div class="icon">
-                    <i class="bi bi-bounding-box-circles"></i>
+                    <i class="bi bi-activity  "></i>
                   </div>
                   <a href="#" class="stretched-link">
-                    <h3>Asperiores Commodit</h3>
+                    <h3>Publicité</h3>
                   </a>
                   <p>
-                    Non et temporibus minus omnis sed dolor esse consequatur.
-                    Cupiditate sed error ea fuga sit provident adipisci neque.
+                    E-mailing, sponsoring, réferencement SEO
                   </p>
                   <a href="#" class="stretched-link"></a>
                 </div>
@@ -138,22 +132,20 @@
               <div class="service-item">
                 <div class="img">
                   <img
-                    src="../../assets/img/services-5.jpg"
+                    src="../../assets/img/social_media.jpg"
                     class="img-fluid"
                     alt=""
                   />
                 </div>
                 <div class="details position-relative">
                   <div class="icon">
-                    <i class="bi bi-calendar4-week"></i>
+                    <i class="bi-file-bar-graph"></i>
                   </div>
                   <a href="#" class="stretched-link">
-                    <h3>Velit Doloremque</h3>
+                    <h3>Social média</h3>
                   </a>
                   <p>
-                    Cumque et suscipit saepe. Est maiores autem enim facilis ut
-                    aut ipsam corporis aut. Sed animi at autem alias eius
-                    labore.
+                    Facebook, Instagram, Twitter, LinkdIn, Tik Tok
                   </p>
                   <a href="#" class="stretched-link"></a>
                 </div>
@@ -176,14 +168,13 @@
                 </div>
                 <div class="details position-relative">
                   <div class="icon">
-                    <i class="bi bi-chat-square-text"></i>
+                    <i class="bi-cloud-check-fill"></i>
                   </div>
                   <a href="#" class="stretched-link">
-                    <h3>Dolori Architecto</h3>
+                    <h3>Maintenabilité</h3>
                   </a>
                   <p>
-                    Hic molestias ea quibusdam eos. Fugiat enim doloremque aut
-                    neque non et debitis iure. Corrupti recusandae ducimus enim.
+                    Déploiement d'applications, veille stratégique
                   </p>
                   <a href="#" class="stretched-link"></a>
                 </div>

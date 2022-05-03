@@ -96,18 +96,17 @@
         "
         data-aos="zoom-out"
       >
-        <h2>Bienvenue à <span>DEK DIGITAL +</span></h2>
+        <h2>Bienvenue à <span>DEK-DIGITAL +</span></h2>
         <p>
-          Et voluptate esse accusantium accusamus natus reiciendis quidem
-          voluptates similique aut.
+          La structure qui vous connecte au monde digital 
         </p>
-        <div class="d-flex">
+        <!-- <div class="d-flex">
           <a
             href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
             class="glightbox btn-watch-video d-flex align-items-center"
             ><i class="bi bi-play-circle"></i><span>Voir la vidéo</span></a
           >
-        </div>
+        </div> -->
       </div>
     </section>
   </div>
